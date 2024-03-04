@@ -1,0 +1,178 @@
+body {
+    background: var(--degrade);
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.container-conteudo {
+    background-color: #FAEED1;
+    padding: 50px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    margin:0;
+}
+
+/* Titulo principal*/
+
+.container__titulo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 2.8rem;
+}
+
+.container__titulo .titulo {
+    font-size: 2rem;
+    margin-right: 1.2rem;
+}
+
+.container__titulo .icone {
+    font-size: 1.5rem;
+}
+
+/* input para adicionar tarefas */
+
+.container-adiciona-tarefas {
+    display: flex;
+    flex-direction: column;
+}
+
+.titulo__adiciona-tarefas {
+    margin-bottom: 1.2rem;
+}
+
+.adiciona-tarefas {
+    background-color: var(--cinza-claro);
+    padding: 0px 1px;
+    border-radius: 2rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.adiciona-tarefas .add-tarefa {
+    border: none;
+    border-radius: 1.2rem;
+    background: transparent;
+    padding: 0.3rem 4.5rem 0.3rem 7rem;
+    outline: none;
+}
+
+
+.btn-add {
+    background-color: #4D4D4D;
+    padding: 0.5rem 1.6rem;
+    border-radius: 2rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+    color: var(--branco);
+    cursor: pointer;
+}
+
+/* Lista de tarefas adicionadas */
+
+.lista-tarefas {
+    display: flex;
+    flex-direction:column;
+    gap: 2rem;
+    margin-top: 2rem;
+    text-align:start;
+}
+
+.item-tarefa{
+    display: flex;
+    align-items: center;
+    position: relative;
+    transition:0.7s;
+}
+
+.item-tarefa:hover {
+    background-color: var(--cinza-claro);
+    padding: 0.5rem 0;
+    border-radius: 1.2rem; 
+    transition:0.7s;
+    box-shadow: 5px -5px #ABABAB;
+}
+
+.icone-tarefa {
+    background-image: url("../img/circle-regular.svg");
+    background-repeat:no-repeat;
+    background-size: 1.2rem;
+    background-position: 0.7rem;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+
+.icone-tarefa__concluida {
+    background-image: url("../img/circle-check-solid.svg");
+    background-repeat:no-repeat;
+    height: 1.2rem;
+    cursor: pointer;
+}
+
+.tarefa__paragrafo__completa {
+    text-decoration: line-through;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+.tarefa__paragrafo {
+    cursor: pointer;
+    padding-left: 3rem;
+}
+
+.tarefa__paragrafo:hover{
+    opacity: 0.5;
+}
+
+.btn-excluir {
+    height: 20px;
+    position: absolute;
+    right: 0;
+    padding: 0.4rem 0.9rem 0.4rem 0;
+}
+
+.btn-excluir:hover {
+    opacity: 0.4;
+    transition: 0.2s;
+}
+
+
+
+/* Responsividade: Celulares */
+
+@media screen and (max-width: 767px){
+    .container-conteudo{
+        max-width: 60%;
+        padding: 2.2rem;
+    }
+
+    /*Titulo principal */
+
+    .container__titulo {
+        justify-content: center;
+    }
+
+    /* Input para adicionar tarefas */
+
+    .container-adiciona-tarefas {
+        align-items: center;
+    }
+
+    .adiciona-tarefas .add-tarefa {
+        padding: 0.3rem 0 0.3rem 0.3rem;
+        font-size: 1rem;
+    }
+
+    .adiciona-tarefas .btn-add {
+        padding: 0.3rem 0.5rem;
+        font-size: 1rem;
+    }
+}
