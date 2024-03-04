@@ -1,4 +1,4 @@
-## To-do List
+## To-do List 📝
 
 Um projeto de lista de tarefas, sendo possivel acompanhar suas tarefas do dia a dia, da semana ou até do mes. As tarefas criadas ficam armazenadas no Local Storage do seu navegador, sendo possivel acompanhar tarefas maiores que demandam mhoras ou talvez dias sem perdelas. 
 
