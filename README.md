@@ -17,8 +17,8 @@ Um projeto de lista de tarefas, sendo possivel acompanhar suas tarefas do dia a 
 
 ## 📁 Acesso ao Projeto
 
-Voce pode acessar o codigo fonte ou baixá-lo
+Voce pode acessar o <a href="https://github.com/luizfsb/To-do__List">codigo fonte aqui</a> ou <a href="https://github.com/luizfsb/To-do__List/files/14488265/To-do__List.zip">baixá-lo</a>
 
 ## 💻 Abrir e rodar projeto
 
-Voce pode acessar o deploy do projeto por aqui e utiliza-lo normalmente.
+Voce pode acessar o <a href="https://to-do-list-lf.vercel.app/">deploy do projeto por aqui</a> e utiliza-lo normalmente.
