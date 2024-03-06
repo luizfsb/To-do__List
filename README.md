@@ -13,7 +13,6 @@ Um projeto de lista de tarefas, sendo possivel acompanhar suas tarefas do dia a 
 - ``HTML``
 - ``CSS``
 - ``JavaScript``
-- ``LocalStorage``
 
 ## 📁 Acesso ao Projeto
 
