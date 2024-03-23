@@ -80,7 +80,7 @@ body {
 .lista-tarefas {
     display: flex;
     flex-direction:column;
-    gap: 2rem;
+    gap: 3rem;
     margin-top: 2rem;
     text-align:start;
 }
