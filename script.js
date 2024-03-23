@@ -45,7 +45,7 @@ function elementoTarefa(tarefa){
 
     btnRemover.onclick = () => {
         tarefaSelecionada = listaDeTarefas.indexOf(tarefa)
-        listaDeTarefas.splice(tarefaSelecionada)
+        listaDeTarefas.splice(tarefaSelecionada, 1)
         li.remove()
         atualizaStorage()
     }
